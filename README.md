@@ -1,4 +1,4 @@
 ### red-devils-manchesterunited
 
-## Live Site:
+## Live Demo:
 https://iftikharrasha.github.io/red-devils-manchesterunited/
