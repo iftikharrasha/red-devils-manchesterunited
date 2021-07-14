@@ -1,0 +1,153 @@
+/* montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* initial styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #EEEDE9;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+.container{
+	max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* fonts */
+.bold-88{
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+}
+  
+.light-18{
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+/* colors */
+.color-1{
+    color: #fff;
+}
+
+.btn-1 {
+    background-color: #D12132;
+    color: #fff;
+    padding: 0.625rem 1.5rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+    border: 0;
+}
+  
+.btn-1:hover{
+    background-color:#FFF22D;
+    color: #D12132;
+}
+
+.btn-1 .arrow{
+    padding-left: .5rem;
+}
+
+/* hero style starts */
+.hero{
+    width: 100%;
+    height: auto;
+    background-image: url(../../img/stadium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-wrapper{
+    height: 940px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.hero-left h1{
+    margin: 1.8rem 0;
+}
+
+.hero-left p{
+    margin-left: .5rem;
+}
+
+.hero-left h1 span{
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.125rem;
+    -webkit-text-stroke-color: #fff;
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+}
+
+.hero-button img{
+    margin-left: 1rem;
+}
+
+.hero-footer {
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-footer span::before, .hero-footer span::after{
+    content: "";
+    width: 70px;
+    height: 6px;
+    top: 5px;
+    position: absolute;
+    border-bottom: 2px solid #C4BBB6;
+}
+
+.hero-footer span::before {
+    right: 100%;
+    margin-right: 8px;
+}
+
+.hero-footer span::after {
+    left: 100%;
+    margin-left: 8px;
+}
+
+.hero-footer span{
+    color: #C4BBB6;
+}

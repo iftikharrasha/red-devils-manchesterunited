@@ -1,0 +1,116 @@
+/* portrait phones */
+@media (max-width: 575.98px) {
+	body, html {
+        font-size: 12px;
+    }
+
+    .bold-88 {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .hero-wrapper {
+        height: 790px;
+        flex-direction: column;
+    }
+
+    .hero-right img {
+        width: 85%;
+    }
+
+    .hero-footer {
+        bottom: 0;
+    }
+}
+
+/* landscape mode */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body, html {
+        font-size: 12px;
+    }
+
+    .hero-wrapper {
+        height: 790px;
+        flex-direction: column;
+    }
+
+    .hero-footer {
+        bottom: 0;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body, html {
+        font-size: 12px;
+    }
+
+    .hero-wrapper {
+        height: 790px;
+        flex-direction: column;
+    }
+
+    .hero-footer {
+        bottom: 0;
+    }
+}
+
+/* Laptop devices */
+@media (min-width: 992px) and (max-width: 1299.98px) {
+	body, html {
+        font-size: 12px;
+    }
+
+    .hero-wrapper {
+        height: 800px;
+    }
+
+    .hero-footer {
+        bottom: 20px;
+    }
+}
+
+/* Laptop devices */
+@media (min-width: 1300px) and (max-width: 1531.98px){
+	.hero-wrapper {
+        height: 790px;
+    }
+
+    .hero-footer {
+        bottom: 20px;
+    }
+}
+
+/* large desktops */
+@media (min-width: 1532px) and (max-width: 2499.99px) {
+    /* retrieving the default styles */
+}
+
+/* 4k monitors */
+@media (min-width: 2500px) {
+    .container {
+        max-width: 1840px;
+    }
+
+	.hero-wrapper {
+        height: 1140px;
+    }
+}
+
+
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra small i-phones  *******/
+@media (max-width: 320px) {
+	
+}
+
+/****** Extra small other devices *******/
+@media (min-width: 321px) and (max-width: 376px) {
+}
