@@ -130,7 +130,7 @@ a, select , input , textarea , button{
 .hero{
     width: 100%;
     height: auto;
-    background-image: url(../../img/stadium.jpg);
+    background-image: url(../img/stadium.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
