@@ -97,6 +97,7 @@
     .hero-wrapper {
         height: 790px;
         flex-direction: column;
+        justify-content: center;
     }
 
     .hero-footer {
@@ -158,6 +159,7 @@
     .hero-wrapper {
         height: 790px;
         flex-direction: column;
+        justify-content: center;
     }
 
     .hero-footer {
