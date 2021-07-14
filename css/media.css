@@ -61,6 +61,31 @@
     .kit img{
         width: 100%;
     }
+
+    .season-wrapper {
+        flex-direction: column;
+    }
+
+    .season-wrapper img {
+        width: 100%;
+    }
+
+    
+   .stat {
+        margin-top: 3rem;
+    }
+
+    .stat-values {
+        flex-direction: column;
+    }
+
+    .column {
+        padding: 2rem 0;
+    }
+
+    .column:first-child {
+        padding-left: 2rem 0;
+    }
 }
 
 /* landscape mode */
@@ -89,6 +114,38 @@
 
     .kit img{
         width: 100%;
+    }
+
+    .season-wrapper img {
+        width: 45%;
+    }
+
+    .stat-values {
+        flex-direction: column;
+    }
+
+    .column {
+        padding: 2rem 0;
+    }
+
+    .column:first-child {
+        padding-left: 2rem 0;
+    }
+
+    .season-wrapper img {
+        width: 45%;
+    }
+
+    .stat-values {
+        flex-direction: column;
+    }
+
+    .column {
+        padding: 2rem 0;
+    }
+
+    .column:first-child {
+        padding-left: 2rem 0;
     }
 }
 
@@ -119,6 +176,22 @@
     .kit img{
         width: 100%;
     }
+
+    .season-wrapper img {
+        width: 45%;
+    }
+
+    .stat-values {
+        flex-direction: column;
+    }
+
+    .column {
+        padding: 2rem 0;
+    }
+
+    .column:first-child {
+        padding-left: 2rem 0;
+    }
 }
 
 /* Laptop devices */
@@ -133,6 +206,10 @@
 
     .kit img{
         width: 100%;
+    }
+
+    .season-wrapper img {
+        width: 35%;
     }
 }
 

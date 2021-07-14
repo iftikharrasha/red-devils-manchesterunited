@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -297,4 +301,52 @@ a, select , input , textarea , button{
 
 .price{
     margin-bottom: 1rem;
+}
+
+/* season starts */
+.season{
+    padding: 7rem 2rem;
+}
+
+.season-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.stat-values{
+    display: flex;
+}
+
+.column{
+    padding: 2rem;
+}
+
+.column:first-child{
+    padding-left: 0;
+}
+
+.column:last-child{
+    padding-right: 0;
+}
+
+.result i{
+    padding: 0 1rem;
+}
+
+.result i:first-child{
+    padding: 0;
+}
+
+.result .win{
+    color: #3AA757;
+}
+
+.result .draw{
+    color: #9AA0A6;
+}
+
+.result .loss{
+    color: #EA4335;
 }
