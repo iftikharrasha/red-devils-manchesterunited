@@ -36,8 +36,8 @@
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
 | Black          | ![#000000](https://via.placeholder.com/10/0000?text=+) `#000000` |
-| Primary        | ![#9BC65A](https://via.placeholder.com/10/9BC65A?text=+) `#9BC65A` |
-| Accent        | ![#E9E2E3](https://via.placeholder.com/10/E9E2E3?text=+) `#E9E2E3` |
-| Secondary        | ![#D6B3C8](https://via.placeholder.com/10/D6B3C8?text=+) `#D6B3C8` |
+| Primary        | ![#D12132](https://via.placeholder.com/10/D12132?text=+) `#D12132` |
+| Accent        | ![#6C6C6C](https://via.placeholder.com/10/6C6C6C?text=+) `#6C6C6C` |
+| Secondary        | ![#FFF22D](https://via.placeholder.com/10/FFF22D?text=+) `#FFF22D` |
 | White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
 
